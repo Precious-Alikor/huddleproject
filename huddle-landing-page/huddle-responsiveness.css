@@ -1,0 +1,149 @@
+/*for extra small screens*/
+
+@media (max-width: 576px) {
+    .container {
+        /* max-height: 100px; */
+        display: flex;
+        flex-direction: column;
+        /* position: fixed; */
+    }
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* justify-content: center; */
+    }
+    .img-section img {
+        width: 460px;
+    }
+    .text-section {
+        margin-left: 140px;
+    }
+    .text1, .text2, .text3 {
+        text-align: center;
+    }
+    .text1, .text2 {
+        font-size: 17px;
+    }
+    .text3 {
+        margin-top: 20px;
+    }
+    .btn {
+        width: 200px;
+        height: 40px;
+        background-color: white;
+        margin: 15px 50px 0px 50px;
+    }
+    .btn p {
+        padding: 13px 0px 10px 0px;
+    }
+    .social-icon {
+        display: flex;
+        justify-content: center;
+    }
+    .icon {
+        margin: 0px 10px 0px 0px;
+    }
+}
+
+/*for small screens*/
+
+@media (min-width: 576px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* justify-content: center; */
+    }
+    .img-section img {
+        width: 460px;
+    }
+    .text-section {
+        margin-left: 140px;
+    }
+    .text1, .text2, .text3 {
+        text-align: center;
+    }
+    .text1, .text2 {
+        font-size: 17px;
+    }
+    .text3 {
+        margin-top: 20px;
+    }
+    .btn {
+        width: 200px;
+        height: 40px;
+        background-color: white;
+        margin: 15px 100px 0px 100px;
+    }
+    .btn p {
+        padding: 13px 0px 10px 0px;
+    }
+    .social-icon {
+        display: flex;
+        justify-content: center;
+    }
+    .icon {
+        margin: 0px 10px 0px 0px;
+    }
+}
+
+/*for medium screens*/
+
+/* @media (min-width: 768px){
+    .main-section{
+        width: 0;
+    }
+    .img-section{
+        width: 0;
+        background-color: rgb(0, 255, 21);
+    }
+    .text-section{
+        width: 0;
+        background-color: rgb(208, 255, 0);
+    } */
+
+/*for large screens*/
+
+/* @media (max-width: 992px){
+    .main-section{
+        width: 100%;
+        display: flex;
+    }
+    .img-section{
+        width: 50%;
+        background-color: blue;
+    }
+    .img-section img{
+        width: 500px;
+    }
+    .text-section{
+        width: 50%;
+        background-color: crimson;
+    }
+    .btn{
+        margin-left: 70px;
+    }
+    .social-icon{}
+} */
+
+/*for extra large screens*/
+
+/* @media (max-width: 1200px){
+    .main-section{
+        display: flex;
+        width: 100%;
+    }
+    .img-section{
+        width: 50%;
+        background-color: blue;
+    }
+    .text-section{
+        width: 50%;
+        background-color: crimson;
+    }
+} */
